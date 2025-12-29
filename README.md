@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flush Comics</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f0f0f;
+      color: #f5f5f5;
+    }
+    header {
+      background: linear-gradient(135deg, #e10600, #000000);
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    nav {
+      background-color: #111;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: #f5f5f5;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #e10600;
+    }
+    section {
+      padding: 3rem 1.5rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #e10600;
+      display: inline-block;
+      padding-bottom: 0.3rem;
+    }
+    .comics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .comic-card {
+      background-color: #1a1a1a;
+      border-radius: 8px;
+      padding: 1rem;
+      text-align: center;
+    }
+    .comic-card img {
+      max-width: 100%;
+      border-radius: 4px;
+    }
+    .comic-card h3 {
+      margin: 0.8rem 0 0.3rem;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .cta {
+      background-color: #e10600;
+      color: #fff;
+      padding: 0.8rem 1.2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    .cta:hover {
+      background-color: #ff1a1a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Flush Comics</h1>
+    <p>Bold. Original. Independent Comics.</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#comics">Comics</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About Flush Comics</h2>
+    <p>
+      Flush Comics is an independent comic book brand focused on original stories,
+      unique characters, and bold art. Edit this section to tell your story,
+      mission, and creative vision.
+    </p>
+  </section>
+
+  <section id="comics">
+    <h2 class="section-title">Our Comics</h2>
+    <div class="comics-grid">
+      <div class="comic-card">
+        <img src="https://via.placeholder.com/300x400" alt="Comic Cover" />
+        <h3>Comic Title #1</h3>
+        <p>Short description of the comic.</p>
+      </div>
+      <div class="comic-card">
+        <img src="https://via.placeholder.com/300x400" alt="Comic Cover" />
+        <h3>Comic Title #2</h3>
+        <p>Short description of the comic.</p>
+      </div>
+      <div class="comic-card">
+        <img src="https://via.placeholder.com/300x400" alt="Comic Cover" />
+        <h3>Comic Title #3</h3>
+        <p>Short description of the comic.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="news">
+    <h2 class="section-title">Latest News</h2>
+    <p>
+      Announce new releases, conventions, updates, or behind-the-scenes info here.
+    </p>
+    <a class="cta" href="#">Read More</a>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <strong>flushcomics@email.com</strong></p>
+    <p>Instagram | X | TikTok (add your links)</p>
+  </section>
+
+  <footer>
+    © 2025 Flush Comics. All rights reserved.
+  </footer>
+
+</body>
+</html>
