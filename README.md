@@ -110,8 +110,8 @@
     <h2 class="section-title">About Flush Comics</h2>
     <p>
       Flush Comics is an independent comic book brand focused on original stories,
-      unique characters, and bold art. Edit this section to tell your story,
-      mission, and creative vision.
+      unique characters, and bold art. The characters are rich and live in a 
+      fictional world with super powers. 
     </p>
   </section>
 
@@ -147,7 +147,7 @@
   <section id="contact">
     <h2 class="section-title">Contact</h2>
     <p>Email: <strong>flushcomics@email.com</strong></p>
-    <p>Instagram | X | TikTok (add your links)</p>
+    <p>Instagram: https://www.instagram.com/osielfernandez0/| X: | TikTok:https://www.tiktok.com/@osielfernandez2 </p>
   </section>
 
   <footer>
