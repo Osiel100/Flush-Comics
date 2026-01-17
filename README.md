@@ -120,17 +120,17 @@
     <div class="comics-grid">
       <div class="comic-card">
         <img src="https://via.placeholder.com/300x400" alt="Comic Cover" />
-        <h3>Comic Title #1</h3>
+        <h3> KID OS THE BEGGINNING Comic #1</h3>
         <p>Short description of the comic.</p>
       </div>
       <div class="comic-card">
         <img src="https://via.placeholder.com/300x400" alt="Comic Cover" />
-        <h3>Comic Title #2</h3>
+        <h3> KID OS THE BEGGINNING PART2 Comic #2</h3>
         <p>Short description of the comic.</p>
       </div>
       <div class="comic-card">
         <img src="https://via.placeholder.com/300x400" alt="Comic Cover" />
-        <h3>Comic Title #3</h3>
+        <h3> KID OS THE BEGGINNING PART3 Comic #3</h3>
         <p>Short description of the comic.</p>
       </div>
     </div>
